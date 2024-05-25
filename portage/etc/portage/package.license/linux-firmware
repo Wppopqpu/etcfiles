@@ -1,0 +1,5 @@
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+# required by rar (argument)
+=app-arch/rar-6.24 RAR
+# required by steam-launcher (argument)
+>=games-util/steam-launcher-1.0.0.79 ValveSteamLicense

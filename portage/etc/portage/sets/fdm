@@ -1,0 +1,7 @@
+# fdm is install as deb
+# so i have to manully add deps
+x11-misc/xdg-utils
+dev-libs/openssl
+media-video/ffmepg
+app-crypt/mit-krb5
+
