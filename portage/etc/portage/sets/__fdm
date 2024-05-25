@@ -2,6 +2,6 @@
 # so i have to manully add deps
 x11-misc/xdg-utils
 dev-libs/openssl
-media-video/ffmepg
+media-video/ffmpeg
 app-crypt/mit-krb5
 

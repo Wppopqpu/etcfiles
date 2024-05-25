@@ -1,0 +1,16 @@
+app-arch/dpkg
+app-arch/rar
+app-misc/neofetch
+app-shells/fish
+app-shells/fzf
+dev-build/xmake
+dev-lua/luarocks
+dev-python/pip
+dev-util/github-cli
+media-sound/cmus
+net-misc/chrony
+sys-apps/lshw
+sys-apps/pv
+sys-fs/fuse
+sys-process/htop
+www-client/elinks

@@ -1,0 +1,8 @@
+app-admin/stow
+app-admin/sudo
+app-editors/neovim
+app-eselect/eselect-repository
+app-portage/gentoolkit
+dev-util/ccache
+dev-vcs/git
+net-misc/networkmanager

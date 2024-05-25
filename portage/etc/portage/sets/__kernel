@@ -1,0 +1,4 @@
+=sys-kernel/gentoo-kernel-6.6.28
+sys-boot/grub
+sys-kernel/installkernel
+sys-kernel/linux-firmware

@@ -1,0 +1,17 @@
+gui-apps/foot
+gui-apps/grimshot
+gui-apps/mako
+gui-apps/slurp
+gui-apps/sway-launcher-desktop
+gui-apps/swaybg
+gui-apps/swayidle
+gui-apps/swaylock
+gui-apps/wl-clipboard
+gui-wm/sway
+media-fonts/nerdfonts
+media-fonts/noto
+media-fonts/noto-cjk
+media-libs/fontconfig
+media-libs/mesa
+media-sound/pavucontrol
+x11-misc/xdg-user-dirs
