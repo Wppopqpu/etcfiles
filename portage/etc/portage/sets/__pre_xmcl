@@ -1,0 +1,20 @@
+# dependencies for x-minecraft-launcher
+# for libgtk-3
+x11-libs/gtk+
+# for libnotify
+x11-libs/libnotify
+# for libnss
+dev-libs/nss
+# for libxss
+x11-libs/libXScrnSaver
+# for libxtst
+x11-libs/libXtst
+# for xdg-utils
+x11-misc/xdg-utils
+# for libatspi2.0
+app-accessibility/at-spi2-core
+# for libuuid
+sys-apps/util-linux
+# for libsecret
+# hope my computer will not produce any awful secretion
+app-crypt/libsecret
