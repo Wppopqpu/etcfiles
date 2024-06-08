@@ -14,3 +14,4 @@ sys-apps/pv
 sys-fs/fuse
 sys-process/htop
 www-client/elinks
+sys-apps/plocate
