@@ -10,7 +10,6 @@ gui-apps/wl-clipboard
 gui-wm/sway
 media-fonts/nerdfonts
 media-fonts/noto
-media-fonts/noto-cjk
 media-libs/fontconfig
 media-libs/mesa
 media-sound/pavucontrol
