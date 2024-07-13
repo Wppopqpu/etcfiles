@@ -16,3 +16,4 @@ sys-process/htop
 www-client/elinks
 sys-apps/plocate
 app-doc/cppman
+sys-apps/ripgrep
