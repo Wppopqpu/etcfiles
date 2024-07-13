@@ -13,5 +13,6 @@ media-fonts/noto
 media-fonts/noto-emoji
 media-libs/fontconfig
 media-libs/mesa
+media-sound/pulseaudio
 media-sound/pavucontrol
 x11-misc/xdg-user-dirs
