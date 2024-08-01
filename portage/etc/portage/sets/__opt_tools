@@ -17,3 +17,5 @@ www-client/elinks
 sys-apps/plocate
 app-doc/cppman
 sys-apps/ripgrep
+dev-util/tree-sitter-cli
+dev-libs/tree-sitter-lua
