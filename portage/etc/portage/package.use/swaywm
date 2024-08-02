@@ -1,1 +1,4 @@
 gui-wm/sway X
+www-client/elinks -X
+www-client/firefox -X
+x11-terms/kitty -X
