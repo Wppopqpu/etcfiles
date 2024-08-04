@@ -1,4 +1,5 @@
 gui-wm/sway X
 www-client/elinks -X
 www-client/firefox -X
+mail-client/thunderbird -X
 x11-terms/kitty -X

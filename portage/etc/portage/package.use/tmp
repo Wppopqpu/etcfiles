@@ -1,0 +1,2 @@
+sys-apps/systemd abi_x86_32
+sys-kernel/installkernel dracut
