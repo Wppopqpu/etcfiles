@@ -19,3 +19,4 @@ app-doc/cppman
 sys-apps/ripgrep
 dev-util/tree-sitter-cli
 dev-libs/tree-sitter-lua
+net-dns/bind-tools

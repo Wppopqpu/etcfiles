@@ -3,5 +3,6 @@
 x11-misc/xdg-utils
 dev-libs/openssl
 media-video/ffmpeg
+media-libs/gstreamer
 app-crypt/mit-krb5
 
