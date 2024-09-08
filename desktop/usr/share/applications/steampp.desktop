@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Watt Toolkit
+Comment=Game & network utility
+Icon=/home/branch/.local/opt/steampp/Icons/Watt-Toolkit.png
+Exec=sh /home/branch/.local/opt/steampp/Steam++.sh
+Terminal=false
+Type=Application
