@@ -44,7 +44,7 @@ else
 end
 
 function install
-	if test (stat -c "%Y" $argv[1]) -le (stat -c "%Y" $argv[2]) -a false = $update_all
+	if test -f argv[2] && test (stat -c "%Y" $argv[1]) -le (stat -c "%Y" $argv[2]) -a false = $update_all
 		return
 	end
 	if test -e $argv[2]
@@ -86,8 +86,7 @@ function update_etc
 			continue
 		end
 
-		echo cd $p
-		cd $p
+		execute cd $p
 		for i in **
 			if test -d $i
 				clear_dir /$i
@@ -95,8 +94,7 @@ function update_etc
 				install $i /$i
 			end
 		end
-		echo cd ..
-		cd ..
+		execute cd ..
 	end
 end
 
