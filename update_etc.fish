@@ -15,6 +15,14 @@ function echo_critical
 	echo (colored_critical $argv)
 end
 
+function colored_very_critical
+	echo -e "\033[30m\033[41m$argv\033[0m"
+end
+
+function echo_very_critical
+	echo (colored_very_critical $argv)
+end	
+
 if set -q _flag_help
 	echo -e "Options:"
 	echo -e "\t-h,\t--help:\tprint help message;"
@@ -70,7 +78,7 @@ function install
 			return
 		end
 		if test $source_timestamp -lt $target_timestamp -a true = $fetch_from_target
-			echo_critical "FETCHED"
+			echo_very_critical "FETCHED"
 			# if test -e $argv[1]
 			# 	execute rm $argv[1]
 			# end
@@ -80,7 +88,7 @@ function install
 			return
 		end
 	end
-	echo_critical "UPDATED"
+	echo_very_critical "UPDATED"
 	if test -e $argv[2]
 		# execute mv $argv[1] $TMP_DIR
 		execute rm $argv[2]
