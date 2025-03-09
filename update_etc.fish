@@ -69,7 +69,7 @@ else
 end
 
 function install
-	echo -e -n "\t$(colored_critical INSTALLING): $argv[1] -> $argv[2] \t;"
+	echo -e -n \t$(colored_critical INSTALLING): $(string pad -w100 "$argv[1] -> $argv[2]\r");
 	if test -f $argv[2]
 		set source_timestamp (stat -c "%Y" $argv[1])
 		set target_timestamp (stat -c "%Y" $argv[2])
@@ -77,7 +77,7 @@ function install
 			echo_critical "SKIPPED"
 			return
 		end
-		if test $source_timestamp -lt $target_timestamp -a true = $fetch_from_target
+		if test $source_timestamp -lt $target_timestamp -a true = $fetch_from_target -a false = $update_all
 			echo_very_critical "FETCHED"
 			# if test -e $argv[1]
 			# 	execute rm $argv[1]
