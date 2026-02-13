@@ -1,0 +1,7 @@
+[Service]
+WorkingDirectory=/
+ExecStart=fish -c "/usr/bin/evremap remap /etc/evremap_user_config.toml -d 0 --device-name (fish /usr/share/user_utils/determine_current_keyboard.fish)"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
