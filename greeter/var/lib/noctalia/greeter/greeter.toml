@@ -1,0 +1,16 @@
+# noctalia-greeter greeter.toml
+# [session] default/last, [user] default, [appearance] scheme/password_style/hide_logo
+# [output] name/layout/scale, [cursor] theme/size/path, [keyboard] layout/variant/options/numlock
+# [auth] allow_empty_password (bool, default false; enables fingerprint/smartcard PAM auth)
+
+[appearance]
+scheme = "Synced"
+
+[session]
+default = "bash --login -c niri"
+
+[user]
+default = "branch"
+
+[output]
+scale = 3
