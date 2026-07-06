@@ -1,6 +1,8 @@
 [Service]
 WorkingDirectory=/
-ExecStart=fish -c "/usr/bin/evremap remap /etc/evremap_user_config.toml -d 0 --device-name (fish /usr/share/user_utils/determine_current_keyboard.fish)"
+ExecStart=/usr/bin/fish -c "/usr/bin/evremap remap /etc/evremap_user_config.toml -d 0 --device-name (fish /usr/share/user_utils/determine_current_keyboard.fish)"
+ExecStartPost=/usr/bin/sleep 6
+ExecStartPost=/usr/bin/sudo -u branch fish /home/branch/scripts/update_bongocat_devices.fish
 Restart=always
 
 [Install]
