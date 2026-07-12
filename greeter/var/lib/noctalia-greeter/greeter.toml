@@ -8,9 +8,7 @@ scheme = "Synced"
 
 [session]
 default = "bash --login -c niri"
+last = "Niri"
 
 [user]
 default = "branch"
-
-[output]
-scale = 3

@@ -1,0 +1,47 @@
+{
+  "corner_radius_scale": 1.0,
+  "palette": {
+    "error": "#FD4663",
+    "hover": "#FF33FF",
+    "on_error": "#181825",
+    "on_hover": "#030305",
+    "on_primary": "#181825",
+    "on_secondary": "#181825",
+    "on_surface": "#F2F2F3",
+    "on_surface_variant": "#AFAFB6",
+    "on_tertiary": "#030305",
+    "outline": "#5D5D71",
+    "primary": "#4C4CFF",
+    "secondary": "#9933FF",
+    "shadow": "#03033A",
+    "surface": "#03033A",
+    "surface_variant": "#0F0F57",
+    "tertiary": "#FF33FF"
+  },
+  "session": {
+    "actions": [
+      {
+        "action": "lock"
+      },
+      {
+        "action": "logout"
+      },
+      {
+        "action": "lock_and_suspend"
+      },
+      {
+        "action": "reboot"
+      },
+      {
+        "action": "shutdown",
+        "variant": "destructive"
+      }
+    ]
+  },
+  "theme_mode": "dark",
+  "version": 1,
+  "wallpaper": {
+    "fill_mode": "crop",
+    "path": "/var/lib/noctalia-greeter/wallpaper.jpg"
+  }
+}
